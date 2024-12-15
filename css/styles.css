@@ -183,6 +183,8 @@ body {
   border-style:solid;
   border-color: #ffffff;
   border-width: 2px;
+  margin: 10px;
+  float: left; 
 }
 
 .newsbutton:hover {
