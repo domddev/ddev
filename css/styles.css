@@ -10,7 +10,9 @@ body, html {
 body {
     font-family: "Artistic";
     background-image: url("../picutres/backgrounds/bg.png");
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 
 #image:hover {
@@ -52,16 +54,16 @@ body {
   }
 
   .navbar li a:hover{
-    letter-spacing: 0.25em;
+    letter-spacing: 0.30em;
     background-color: rgb(255, 6, 6);
     transition: 0.5s; 
     box-shadow: 0 0 35px #ff0000;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   .navbar li a:not(:hover){
     background-color: black;
-    transition: 0.5s;
+    transition: 0.4s;
   }
 
   h1 {
@@ -78,6 +80,7 @@ body {
   #links:hover{
     color:#890404;
     transition: 0.2s;
+    font-size: 22px;
   }
 
   #links:not(:hover){
@@ -223,6 +226,8 @@ body {
   border-style:solid;
   border-color: #ffffff;
   border-width: 2px;
+  float: left; 
+  margin: 10px;
 }
 
 .archive:hover {
